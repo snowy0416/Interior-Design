@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Environment variables
+.env
+
+
+# .gitignore
+backend\interior-design-a36b9-firebase-adminsdk-yfx42-dc9fd33b45.json
+
+
+
+

@@ -1,0 +1,11 @@
+.logincont{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    margin-left: 5rem;
+    background: url('../assets/lg1.jpg');
+    background-size: cover;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}

@@ -1,0 +1,73 @@
+.signup{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    margin-left: 5rem;
+    background: url('../assets/sg1.jpg');
+    background-size: cover;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.form-d{
+  width: 30vw;
+  height:78%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: transparent;
+ box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+ border-radius: 15px;
+ background:rgba(255,255,255,0.1);
+ border-top: 1px solid rgba(255,255,255,0.5);
+ border-left: 1px solid rgba(255,255,255,0.5);
+ backdrop-filter:blur(6px) ;
+}
+.form-d input{
+    padding: 2%;
+    width: max-content;
+    border-radius: 10px;
+    width: 300px; 
+    padding: 20px 30px; 
+    font-size: 13px;
+    text-align: center;
+    background-color: rgb(223, 223, 228);
+    border-radius: .5rem;
+    border: 0.125rem solid #fff;
+    outline: none;
+}
+.Sg{
+    padding: 15px 20px;
+    border-radius: .5rem;
+    border: 0.125rem solid #fff;
+    background-color: white;
+    color: black;
+}
+.adj{
+    display: flex;
+}
+.g-icon{
+    margin-right: 1rem;
+}
+.signUp-text{
+    font-size: 15px;
+    margin-top: 1rem;
+}
+.logout-container{
+    width: 30vw;
+    height:78%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: transparent;
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+   background:rgba(255,255,255,0.1);
+   border-top: 1px solid rgba(255,255,255,0.5);
+   border-left: 1px solid rgba(255,255,255,0.5);
+   backdrop-filter:blur(6px) ;
+  }

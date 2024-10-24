@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Popins',sans-serif
+}
+
+.footer{
+    position:relative;
+    width:100%;
+    background:#021128;
+    min-height: 100px;
+    padding: 20px 50px;
+   
+}
+.footer .social-icon,.footer .menu{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0;
+    flex-wrap:wrap;
+}
+.footer .social-icon li, .footer .menu li{
+    list-style:none;
+}
+
+.footer .social-icon li a{
+    font-size: 2em;
+    color:#fff;
+    margin: 0 10px;
+    display:inline-block;
+    transition:0.5s
+}
+
+.footer .social-icon li a :hover{
+  transform:translateY(-10px);
+}
+.footer .menu li a {
+    font-size: 1.2em;
+    color:#fff;
+    margin: 0 10px;
+    display:inline-block;
+    text-decoration: none;
+    opacity:0.75;
+}
+.footer .menu li a :hover{
+    opacity:1;
+}
+
+.footer p{
+    color: #fff;
+    text-align:center ;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.footer .wave {
+    position:absolute;
+    top:-100;
+    left:0;
+    width:100%;
+    height:100px;
+    background:url('https://in.images.search.yahoo.com/search/images;_ylt=AwrPoeuqIbNmL6gHkj27HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Nj?p=blue+wave+png&vm=r&type=E210IN1589G0&ei=UTF-8&fr=mcafee&th=110.9&tw=257.7&imgurl=https%3A%2F%2Fwww.pngkey.com%2Fpng%2Ffull%2F14-144572_waves-design-png-transparent-blue-waves-png.png&rurl=https%3A%2F%2Fwww.pngkey.com%2Fmaxpic%2Fu2q8a9y3r5q8o0i1%2F&size=187KB&name=Download+Waves+Design+Png+-+Transparent+Blue+Waves+Png+PNG+Image+with+...&oid=2&h=406&w=943&turl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.2hIRLz2ESGtMWK5vfYRqZAHaDM%26pid%3DApi%26rs%3D1%26c%3D1%26qlt%3D95%26w%3D257%26h%3D110&tt=Download+Waves+Design+Png+-+Transparent+Blue+Waves+Png+PNG+Image+with+...&sigr=iVPAxuwJ28U6&sigit=dWCMoOPuuoT7&sigi=7Tkv0fAvsanc&sign=LOzMfrQlTVdI&sigt=LOzMfrQlTVdI');
+    background-size:1000px 100px;
+
+}
+.footer .wave#wave1{
+    z-index:1000;
+    opacity:1;
+    bottom:0;
+    animation:animateWave 4s linear infinite;
+
+}
+.footer .wave#wave2{
+    z-index:999;
+    opacity:0.5;
+    bottom:10px;
+    animation:animateWave_02 4s linear infinite;
+}
+.footer .wave#wave3{
+    z-index:1000;
+    opacity:0.2;
+    bottom:15px;
+    animation:animateWave 3s linear infinite;
+
+}
+.footer .wave#wave4{
+    z-index:999;
+    opacity:0.7;
+    bottom:20px;
+    animation:animateWave_02 3s linear infinite;
+
+}
+@keyframes animateWave{
+    0%{
+        background-position-x:1000px;
+    }
+    100%{
+        background-position-x:0px;
+    }
+
+}
+@keyframes animateWave_02{
+    0%{
+        background-position-x:0px;
+    }
+    100%{
+        background-position-x:1000px;
+    }
+
+}
